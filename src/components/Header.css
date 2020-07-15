@@ -1,0 +1,145 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+  }
+
+  @media screen and (max-width: 1024px){
+
+    .centered{
+        left: 17rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .centered{
+        left: 11.5rem;
+        height: 250px;
+        margin-top: -40%;
+    }
+}
+
+@media screen and (max-width: 414px){
+
+    .centered{
+        left: 13rem;
+        height: 200px;
+        margin-top: -40%;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .centered{
+        left: 11.5rem;
+        height: 200px;
+        margin-top: -40%;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .centered{
+        left: 10rem;
+        height: 200px;
+        margin-top: -40%;
+    }
+}
+
+.pic{
+    width: 100%;
+    height: 60vh;
+    margin-right: -10%;
+}
+
+.tone2 img{
+    width: 50%;
+    height: 80vh;
+    position: absolute;
+    top: 0%;
+    left: 55rem;
+    transform: translateY(-50%);
+    animation: suspension 2s linear infinite;
+}
+
+@media screen and (max-width: 1024px){
+
+    .tone2 img{
+        left: 30rem;
+        top: 15%;
+        width: 50%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .tone2 img{
+        left: 24rem;
+        top: 10%;
+        width: 50%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 788px){
+
+    .tone2 img{
+        left: 24.5rem;
+        top: 10%;
+        width: 50%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+    .tone2 img{
+        left: 1.5rem;
+        top: 38%;
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 414px){
+
+    .tone2 img{
+        left: 1.5rem;
+        top: 38%;
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .tone2 img{
+        left: 1.5rem;
+        top: 42%;
+        width: 90%;
+        height: 50vh;
+    }
+}
+
+@keyframes suspension{
+    100%{
+        transform: translateY(-2px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
