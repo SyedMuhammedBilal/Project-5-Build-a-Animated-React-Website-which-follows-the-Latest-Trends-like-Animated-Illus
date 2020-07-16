@@ -12,7 +12,9 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-scripts": "^3.4.0",
-    "styled-components": "^5.0.1"
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.0.1",
+    "surge": "^0.21.6"
   },
   "scripts": {
     "start": "react-scripts start",
