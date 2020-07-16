@@ -1,0 +1,19 @@
+.mx-auto{
+    margin-left: 20vh;
+}
+
+.pic{
+    animation: suspension 2s linear infinite;
+}
+
+@keyframes suspension{
+    100%{
+        transform: translateY(-2px);
+    }
+    50%{
+        transform: translateY(40px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}

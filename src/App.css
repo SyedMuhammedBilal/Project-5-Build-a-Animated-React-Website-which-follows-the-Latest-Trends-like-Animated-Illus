@@ -5,3 +5,14 @@
   --black: #3b2c41;
   --green: #a3ffc1;
 }
+
+.container{
+  margin-left: 6vh;
+}
+
+@media screen and (max-width: 320px){
+
+  .container{
+      margin-left: 10vh;
+  }
+}
